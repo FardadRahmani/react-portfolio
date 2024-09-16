@@ -14,10 +14,10 @@ const router = createBrowserRouter([
   element: <App />,
   // errorElement: <ErrorPage />
   },
-  // {
-  //   path: '/:certificateId', //dynamic Paths! Dynamic Routing
-  //   element: <CertificatePage />,
-  // }
+  {
+    path: '/:certificateId', //dynamic Paths! Dynamic Routing
+    element: <CertificatePage />,
+  }
   // {
   //   path: '/profiles',
   //   element: <ProfilesPage />,
