@@ -6,8 +6,8 @@ const CertificatePage = () => {
   const navigate = useNavigate();
 
   const imageFiles = [
-    "/public/Python-Certificate.png",
-    "/public/notenspiegel_englisch.png",
+    "/Python-Certificate.png",
+    "/notenspiegel_englisch.png",
     "/WebDevelopment-Certificate.png",
     "/Android-Certificate.png",
     "/IT-KursZertifikate.png",
