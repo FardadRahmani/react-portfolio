@@ -10,9 +10,9 @@ import android from "../assets/certificates/android.jpg";
 import employer from "../assets/certificates/employer.jpg";
 import networks from "../assets/certificates/networks.jpg";
 
-export const HERO_CONTENT = `I am a passionate Software developer with a knack for crafting robust and scalable applications. With 5 years of hands-on experience in the IT-Section, I have honed my skills and Understanding in the workings of modern enterprises. In the course of my retraining I am getting gradually more acquainted with different Programming Languages such as Python, C++ and Kotlin, as well as recent acquaintance into webdevelopment with React, Next.js as well as back-end technologies like Node.js, PostgreSQL. My goal is to leverage my expertise in Software Development, especially in relation to A.I.and machine Learning to create innovative solutions that drive business growth and so be a part of this great new hype that will in my opinion conquer every bit of our digital and normal life.`;
+export const HERO_CONTENT = `I am a passionate Software developer with a knack for crafting robust and scalable applications. With 5 years of hands-on experience in the IT-Section, I have honed my skills and Understanding in the workings of modern enterprises. In the course of my retraining I am getting gradually more acquainted with different Programming Languages such as Python, C++ and Kotlin, as well as recent acquaintance into webdevelopment with React, Next.js as well as back-end technologies like Node.js, PostgreSQL. My goal is to leverage my expertise in Software Development, especially in relation to A.I.and machine Learning to create innovative solutions that help humanity as a whole and so be a part of this great new hype that will in my opinion conquer every bit of our digital and normal life.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Software developer with a passion for creating efficient and user-friendly applications. I have worked with a variety of technologies, including C++, C, Kotlin, Java and PostgreSQL, however what intrigued me the most and left me craving more was definitely PYTHON. My journey into Python-development began with a deep curiosity for how A.I. works, and even though I didnt take python serious at first as a programming Language, from the moment I started learning it my initial curiosity has evolved into a deep Connectedness where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Software developer with a passion for creating efficient and user-friendly applications. I have worked with a variety of technologies, including C++, C, Kotlin, Java and PostgreSQL, however what intrigued me the most and left me craving more was definitely PYTHON. My journey into Python-development began with a deep curiosity for how A.I. works, and even though I didnt take python serious at first as a programming Language, from the moment I started learning it my initial curiosity has evolved into a deep Connectedness where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and deeply enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy stillness inducing activities such as playing music, hiking and Yoga.`;
 
 export const EXPERIENCES = [
   {
@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     role: "Software Developer Trainee",
     company: "Macromedia Academy",
     description: `Learning Software development especially OOP.`,
-    technologies: ["C++", "React.js", "Python", "PostgreSQL"],
+    technologies: ["C++", "Java", "Python", "PostgreSQL"],
   },
   {
     year: "2022 - 2023",

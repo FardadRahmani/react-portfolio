@@ -2,6 +2,23 @@ import { PROJECTS } from "../constants"
 import { motion } from "framer-motion";
 
 const Projects = () => {
+
+    function githubRedirect(index) {
+        switch (index) {
+            case 1:
+                return "https://github.com/FardadRahmani/android/tree/main/WeatherApp";
+            case 2:
+                return "https://github.com/FardadRahmani/android/tree/main/NoteAppRoomDB";
+            case 3:
+                return "/";
+            case 4:
+                return "https://github.com/FardadRahmani/python/tree/main/Calculator";
+            default:
+                return "#"; // Changed to "#" as a fallback
+        }
+    }
+
+
   return (
     <div className="border-b border-neutral-900 pb-4">
         <motion.h2 
@@ -17,13 +34,16 @@ const Projects = () => {
                     initial={{opacity:0, x:-100}}
                     transition={{duration:1}}
                     className="w-full lg:w-1/4">
-                        <img 
+                        <a href={githubRedirect(index + 1)}>
+                            <img 
                             src={project.image} 
                             width={150} 
                             height={150} 
                             alt={project.title} 
                             className="mb-6 rounded"
-                        />
+                            />
+                        </a>
+                        
                     </motion.div>
                     <motion.div 
                     whileInView={{opacity:1, x:0}}
