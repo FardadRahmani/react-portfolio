@@ -5,6 +5,9 @@ const CertificatePage = () => {
   const { certificateId } = useParams();
   const navigate = useNavigate();
 
+  console.log(certificateId);
+  
+
   const imageFiles = [
     "/Python-Certificate.png",
     "/notenspiegel_englisch.png",
@@ -12,6 +15,7 @@ const CertificatePage = () => {
     "/Android-Certificate.png",
     "/IT-KursZertifikate.png",
     "/Arbeitszeungis.png",
+    "/Empfehlungsschreiben.png",
   ];
 
 
