@@ -111,7 +111,7 @@ export const CERTIFICATES = [
     technologies: ["Networks", "GDPR", "HIPAA", "Deep Learning", "Natural Language Processing"],
   },
   {
-    title: "Employment References",
+    title: "Employer References",
     image: employer,
     description: "Positive testimonials highlighting problem-solving skills and ability to work in interdisciplinary teams.",
     technologies: ["Team Collaboration", "Agile Methodologies", "Cross-functional Communication"],
