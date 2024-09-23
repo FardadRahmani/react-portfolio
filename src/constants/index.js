@@ -9,7 +9,7 @@ import html from "../assets/certificates/html.jpg";
 import android from "../assets/certificates/android.jpg";
 import employer from "../assets/certificates/employer.jpg";
 import networks from "../assets/certificates/networks.jpg";
-import prof from "../assets/certificates/stamp.png";
+import prof from "../assets/certificates/stamp.jpg";
 
 export const HERO_CONTENT = `I am a passionate Software developer with a knack for crafting robust and scalable applications. With 5 years of hands-on experience in the IT-Section, I have honed my skills and Understanding in the workings of modern enterprises. In the course of my retraining I am getting gradually more acquainted with different Programming Languages such as Python, C++ and Kotlin, as well as recent acquaintance into webdevelopment with React, Next.js as well as back-end technologies like Node.js, PostgreSQL. My goal is to leverage my expertise in Software Development, especially in relation to A.I.and machine Learning to create innovative solutions that help humanity as a whole and so be a part of this great new hype that will in my opinion conquer every bit of our digital and normal life.`;
 
@@ -117,7 +117,7 @@ export const CERTIFICATES = [
     description: "Positive testimonials highlighting problem-solving skills and ability to work in interdisciplinary teams.",
     technologies: ["Team Collaboration", "Agile Methodologies", "Cross-functional Communication"],
   },
-  ,
+  
   {
     title: "Professor Recommendations",
     image: prof,
